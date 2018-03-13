@@ -8,9 +8,9 @@ Size: 1.2 MB
 !["Init"](/auditscreens/init.png "Init")
 
 ## Post minify CSS/JS
-First viable: xxxs  
-DOMContentLoaded: 12.62s (saved 0.82s)  
+First viable: 6.88s
+DOMContentLoaded: 12.62s (saved 0.82s)
 Load: 30.11s (saved 0.64s)  
-Size:    
+Size:   
 !["postmin"](/auditscreens/post-min.png "postmin")
 
