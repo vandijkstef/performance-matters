@@ -7,10 +7,17 @@ Load: 30.75s
 Size: 1.2 MB  
 !["Init"](/auditscreens/init.png "Init")
 
-## Post minify CSS/JS
+## Minify CSS/JS
 First viable: 6.88s
 DOMContentLoaded: 12.62s (saved 0.82s)
 Load: 30.11s (saved 0.64s)  
-Size:   
+Size: 1.2 MB  
 !["postmin"](/auditscreens/post-min.png "postmin")
+
+## Optimize images
+First viable:  
+DOMContentLoaded:   
+Load:  
+Size:  
+<!-- !["postimg"](/auditscreens/post-img.png "postimg") -->
 
