@@ -14,3 +14,10 @@ Load: 30.11s (saved 0.64s)
 Size:   
 !["postmin"](/auditscreens/post-min.png "postmin")
 
+
+## Critical (CSS) Loading
+First viable:  
+DOMContentLoaded:  
+Load:  
+Size:   
+<!-- !["postmin"](/auditscreens/post-min.png "postmin") -->
