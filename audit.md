@@ -28,3 +28,9 @@ Load: 20.36s
 Size: 729kb  
 !["postwebp"](/auditscreens/webp.png "postwebp")
 
+## Enable GZIP
+First viable: 6.00s
+DOMContentLoaded: 8.32s
+Load: 15.76s
+Size: 490kb
+!["gzip"](/auditscreens/gzip.png "gzip")
