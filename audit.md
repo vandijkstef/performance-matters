@@ -15,9 +15,9 @@ Size: 1.2 MB
 !["postmin"](/auditscreens/post-min.png "postmin")
 
 ## Optimize images
-First viable:  
-DOMContentLoaded:   
-Load:  
-Size:  
-<!-- !["postimg"](/auditscreens/post-img.png "postimg") -->
+First viable: 6.86s  
+DOMContentLoaded: 12.59s   
+Load: 22.88s  
+Size: 843kb  
+!["postimg"](/auditscreens/imgoptim.png "postimg")
 
