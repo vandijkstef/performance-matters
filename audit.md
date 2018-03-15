@@ -21,3 +21,10 @@ Load: 22.88s
 Size: 843kb  
 !["postimg"](/auditscreens/imgoptim.png "postimg")
 
+## Optimize with Webp
+First viable: 6.86s  
+DOMContentLoaded: 12.84s  
+Load: 20.36s  
+Size: 729kb  
+!["postwebp"](/auditscreens/webp.png "postwebp")
+
