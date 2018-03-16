@@ -35,3 +35,9 @@ Load: 15.76s
 Size: 490kb
 !["gzip"](/auditscreens/gzip.png "gzip")
 
+## Async CSS and defered JS
+First viable: 3.12s  
+DOMContentLoaded: 14.00s  
+Load: 14.10s  
+Size: 490kb  
+!["asyncdefer"](/auditscreens/asyncdefer.png "asyncdefer")
