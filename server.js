@@ -3,6 +3,8 @@ const nunjucks = require('nunjucks');
 const path = require('path');
 const routeStatic = require('./lib/route-static');
 const redirectIndices = require('./lib/redirect-indices');
+const compression = require('compression');
+
 
 const app = express();
 const baseDir = 'src';
@@ -10,11 +12,11 @@ const port = process.env.PORT || 3004;
 
 app.set('etag', false);
 app.use((req, res, next) => { res.removeHeader('X-Powered-By'); next(); });
+app.use(compression());
 
 // static routes
 app.use(routeStatic);
-app.use('/static', express.static(path.join(__dirname, baseDir), { etag: false, lastModified: false }));
-
+app.use('/static', express.static(path.join(__dirname, baseDir), { etag: false, lastModified: false, maxAge: 31557600 }));
 // dynamic pages
 app.use(redirectIndices);
 nunjucks.configure(baseDir, {

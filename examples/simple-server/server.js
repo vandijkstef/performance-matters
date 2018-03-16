@@ -22,5 +22,7 @@ app.get('/movies/:id', function (req, res) {
 })
 
 var server = app.listen(1337, function () {
+	res.setHeader('Cache-Control', 'public, max-age=31557600'); // one year
    console.log('server is running on port 1337')
 })
+
